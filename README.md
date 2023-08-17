@@ -1,7 +1,7 @@
 # cex-withdrawal
 Cex withdrawer of Binance, Mexc, Okx
 
-Put parameters at ```setting.py``` and writedown addresses at ```addresses.txt```
+Put parameters at ```setting.py``` and write down addresses at ```addresses.txt```
 
 run by remove the annotation at ```main.py```
 
