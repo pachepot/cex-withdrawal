@@ -1,7 +1,7 @@
 # cex-withdrawer
 Cex withdrawer of Binance, Mexc, Okx
 
-Put parameters at setting.py and use by remove the annotation
+Put parameters at setting.py and use by remove the annotation at main.py
 
 
 1. minAnount: minimum withdrawal amount
