@@ -14,3 +14,4 @@ Put parameters at setting.py and use by remove the annotation at main.py
 
 5. network: coin network (Ex. BTC, BSC, ABAXC)
 
+6. okxPassword: Okex password of APIkey
