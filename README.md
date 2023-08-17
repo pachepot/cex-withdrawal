@@ -4,13 +4,13 @@ Cex withdrawer of Binance, Mexc, Okx
 Put parameters at setting.py and use by remove the annotation
 
 
-minAnount: minimum withdrawal amount
+1. minAnount: minimum withdrawal amount
 
-maxAmount: maximum withdrawal amount
+2. maxAmount: maximum withdrawal amount
 
-decimal: number of decimal places
+3. decimal: number of decimal places
 
-token: coin ticker (Ex. BTC, BNB, AVAX)
+4. token: coin ticker (Ex. BTC, BNB, AVAX)
 
-network: coin network (Ex. BTC, BSC, ABAXC)
+5. network: coin network (Ex. BTC, BSC, ABAXC)
 
