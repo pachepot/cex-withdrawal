@@ -1,13 +1,16 @@
 import ccxt
 
 
-minAmount = 0.01
-maxAmount = 0.02
-decimal = 3
+minAmount = 1010
+maxAmount = 1050
+decimal = 1
 
-token = 'BNB'
-network = 'BSC'
+token = 'USDC'
+network = 'Polygon'
 
+# If you don't use okex, leave it intact.
+okxFee = 0.8
+okxPassword = ""
 
 binance = ccxt.binance(config={
     'apiKey': "",
@@ -21,7 +24,6 @@ mexc = ccxt.mexc(config={
     'enableRateLimit': True
 })
 
-okxPassword = ""
 okx = ccxt.okex(config={
     'apiKey': "",
     'secret': "",
