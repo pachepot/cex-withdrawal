@@ -9,9 +9,9 @@ def main():
             address = line.rstrip()
             amount = round(random.uniform(setting.maxAmount, setting.minAmount), setting.decimal)
 
-            withdraw.binance_withdraw(setting.token, amount, address, setting.network)
+            # withdraw.binance_withdraw(setting.token, amount, address, setting.network)
             # withdraw.mexc_withdraw(setting.token, amount, address, setting.network)
-            # withdraw.okx_withdraw(setting.token, amount, address, setting.network)
+            withdraw.okx_withdraw(setting.token, amount, address, setting.network)
 
 
 main()
